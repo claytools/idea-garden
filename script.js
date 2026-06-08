@@ -1,0 +1,1 @@
+console.log("Welcome to Clay's Idea Garden 🌼");
