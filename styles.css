@@ -799,6 +799,54 @@ footer {
   .idea-tile em {
     font-size: 0.68rem;
   }
+  /* Fix idea garden tile links on desktop */
+
+.icon-garden .idea-tile,
+.icon-garden .idea-tile:visited {
+  position: relative;
+  left: auto !important;
+  bottom: auto !important;
+  display: grid !important;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  text-decoration: none !important;
+  color: var(--ink) !important;
+  min-height: 145px;
+  padding: 16px 10px 14px;
+  border-radius: 28px;
+  background: rgba(255, 250, 230, 0.82);
+  border: 2px solid rgba(107, 63, 43, 0.18);
+  box-shadow: 0 12px 30px rgba(47, 38, 31, 0.14);
+}
+
+.icon-garden .idea-tile strong,
+.icon-garden .idea-tile em {
+  color: var(--ink) !important;
+  text-decoration: none !important;
+}
+
+.icon-garden .idea-tile strong {
+  display: block;
+  max-width: 115px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  font-size: 0.9rem;
+  line-height: 1.05;
+}
+
+.icon-garden .idea-tile em {
+  display: inline-flex;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.72rem;
+  color: var(--brown) !important;
+  background: rgba(255, 255, 255, 0.62);
+  padding: 4px 8px;
+  border-radius: 999px;
+}
 }
 }
 }
